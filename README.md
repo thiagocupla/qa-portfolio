@@ -11,7 +11,7 @@ Portfólio profissional de Qualidade de Software com foco em:
 
 ## 👨‍💻 Sobre mim
 
-Sou um profissional em transição para a área de Qualidade de Software, 
+Sou um profissional em transição para a área de Qualidade de Software,
 com foco em garantir a qualidade de aplicações através de testes bem estruturados,
 validação de APIs e automação.
 
@@ -24,28 +24,33 @@ validação de APIs e automação.
 ## 📂 Estrutura do Projeto
 
 ### 📌 01 - Testes Manuais
+
 - Plano de testes
 - Casos de teste
 - Bug reports
 - Checklists de regressão
 
 ### 📌 02 - Testes de API
+
 - Collections Postman
 - Validações de status code
 - Testes automatizados
 - Documentação de endpoints
 
 ### 📌 03 - SQL
+
 - Queries de validação
 - Consultas com JOIN
 - Validação de integridade de dados
 
 ### 📌 04 - Documentação
+
 - Estratégia de testes
 - Critérios de aceite
 - Boas práticas de QA
 
 ### 📌 05 - Automação com Cypress
+
 - Estrutura de projeto Cypress
 - Testes E2E
 - Page Object Pattern
@@ -67,5 +72,5 @@ validação de APIs e automação.
 
 ## 🚀 Objetivo deste Repositório
 
-Demonstrar na prática minhas habilidades técnicas em QA, 
+Demonstrar na prática minhas habilidades técnicas em QA,
 organização de testes e evolução contínua na área de qualidade de software.
