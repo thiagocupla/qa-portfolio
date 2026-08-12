@@ -6,7 +6,7 @@ Bem-vindo à documentação do módulo de **Testes Manuais**. Este espaço é de
 
 ## 🎯 Sistema Testado (SUT - System Under Test)
 
-* **Aplicação:** [Nome do Sistema / Ex: SauceDemo E-commerce]
+* **Aplicação:** [SauceDemo E-commerce](https://www.saucedemo.com/)
 * **Objetivo:** Garantir a qualidade das funcionalidades críticas (autenticação, navegação, carrinho de compras e checkout), mitigando riscos antes do envio para produção.
 
 ---
@@ -15,9 +15,9 @@ Bem-vindo à documentação do módulo de **Testes Manuais**. Este espaço é de
 
 Clique nos links abaixo para navegar diretamente pelos artefatos produzidos neste projeto:
 
-* 📋 **[Plano de Testes](./plano-de-testes/):** Estratégia macro, escopo (in/out), ambiente e critérios de aceite.
-* 📑 **[Casos de Teste](./casos-de-teste/):** Cenários detalhados com pré-condições, passos para reprodução e resultado esperado.
-* 🐛 **[Bug Reports](./bug-reports/):** Relatório detalhado de falhas encontradas com severidade, prioridade e passos.
+* 📋 **[Plano de Testes](./plano-de-testes/plano-de-testes-saucedemo.md):** Estratégia macro, escopo (in/out), ambiente e critérios de aceite do SauceDemo.
+* 📑 **[Casos de Teste de Login](./casos-de-teste/ct-login-saucedemo.md):** Cenários detalhados de autenticação com pré-condições, passos e resultados.
+* 🐛 **[Bug Reports](./bug-reports/):** Relatório detalhado de falhas encontradas.
 * ✅ **[Checklists de Regressão](./checklists/):** Validações rápidas para garantir estabilidade pós-correções.
 * 📸 **[Evidências](./evidencias/):** Screenshots e gravações comprovando a execução dos testes.
 
