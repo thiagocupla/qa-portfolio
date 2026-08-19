@@ -1,5 +1,7 @@
 # 🧪 QA Portfolio — Thiago Cupla
 
+![Cypress Tests](https://github.com/thiagocupla/qa-portfolio/actions/workflows/cypress.yml/badge.svg)
+
 Portfólio profissional de Qualidade de Software com foco em:
 
 - ✅ Testes Manuais
