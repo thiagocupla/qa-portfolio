@@ -1,0 +1,20 @@
+name: Execução de Testes E2E - Cypress
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js e executar Cypress
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: 05-cypress
+          browser: chrome
