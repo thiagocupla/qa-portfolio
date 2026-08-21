@@ -54,4 +54,4 @@ Projeto de automação End-to-End cobrindo os fluxos críticos do e-commerce [Sa
 1. **Clonar o repositório:**
 
 ```bash
-   git clone [https://github.com/thiagocupla/qa-portfolio.git](https://github.com/thiagocupla/qa-portfolio.git)
+git clone https://github.com/thiagocupla/qa-portfolio.git
