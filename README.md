@@ -4,75 +4,54 @@
 
 Portfólio profissional de Qualidade de Software com foco em:
 
-- ✅ Testes Manuais
-- ✅ Testes de API REST
-- ✅ Validação com SQL
-- ✅ Automação E2E com Cypress
+- [x] Testes Manuais
+- [x] Testes de API REST
+- [x] Validação com SQL
+- [x] Automação E2E com Cypress
 
 ---
 
-## 👨‍💻 Sobre mim
+## 👤 Sobre mim
 
-Sou um profissional em transição para a área de Qualidade de Software,
-com foco em garantir a qualidade de aplicações através de testes bem estruturados,
-validação de APIs e automação.
+Sou um profissional em transição para a área de Qualidade de Software, com foco em garantir a qualidade de aplicações através de testes bem estruturados, validação de APIs e automação.
 
-🎯 Objetivo: Primeira oportunidade como QA Junior  
-📍 Brasil  
-🔗 [LinkedIn](https://www.linkedin.com/in/thiago-tiburcio-295217117/)
+🎯 **Objetivo:** Primeira oportunidade como QA Junior  
+📍 **Localização:** Brasil  
+🔗 **LinkedIn:** [thiago-tiburcio-295217117](https://www.linkedin.com/in/thiago-tiburcio-295217117/)
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🚀 Projeto em Destaque: Automação E2E com Cypress (SauceDemo)
 
-### 📌 01 - Testes Manuais
+Projeto de automação End-to-End cobrindo os fluxos críticos do e-commerce [SauceDemo](https://www.saucedemo.com/), integrado com relatórios consolidados em HTML e pipeline de CI/CD automatizada.
 
-- Plano de testes
-- Casos de teste
-- Bug reports
-- Checklists de regressão
+### 🛠️ Tecnologias Utilizadas
 
-### 📌 02 - Testes de API
+- **Cypress** — Framework de automação E2E
+- **JavaScript** — Linguagem de programação dos scripts
+- **Mochawesome Reporter** — Relatórios consolidados com gráficos
+- **GitHub Actions** — Esteira de integração contínua (CI/CD)
 
-- Collections Postman
-- Validações de status code
-- Testes automatizados
-- Documentação de endpoints
+### 📋 Cobertura de Testes Automatizados
 
-### 📌 03 - SQL
-
-- Queries de validação
-- Consultas com JOIN
-- Validação de integridade de dados
-
-### 📌 04 - Documentação
-
-- Estratégia de testes
-- Critérios de aceite
-- Boas práticas de QA
-
-### 📌 05 - Automação com Cypress
-
-- Estrutura de projeto Cypress
-- Testes E2E
-- Page Object Pattern
-- Boas práticas de automação
+- **Autenticação (Login):**
+  - `CT-001`: Login com credenciais válidas.
+  - `CT-002`: Mensagem de erro para usuário bloqueado.
+  - `CT-003`: Mensagem de erro para senha inválida.
+- **Produtos e Carrinho:**
+  - `CT-004`: Exibição da lista de produtos com sucesso.
+  - `CT-005`: Adição de produto ao carrinho.
+  - `CT-006`: Remoção de produto do carrinho.
+- **Fluxo de Checkout (Positivo e Negativo):**
+  - `Fluxo Principal`: Finalização de compra completa com sucesso.
+  - `CT-007`: Validação de erro ao tentar avançar com campos vazios.
+  - `CT-008`: Validação da obrigatoriedade do campo de sobrenome.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 💻 Como Executar o Projeto de Automação
 
-- Git & GitHub
-- JavaScript
-- Node.js
-- Cypress
-- Postman
-- SQL
-- VS Code
+1. **Clonar o repositório:**
 
----
-
-## 🚀 Objetivo deste Repositório
-
-Demonstrar na prática minhas habilidades técnicas em QA,
-organização de testes e evolução contínua na área de qualidade de software.
+```bash
+   git clone [https://github.com/thiagocupla/qa-portfolio.git](https://github.com/thiagocupla/qa-portfolio.git)
