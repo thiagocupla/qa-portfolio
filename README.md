@@ -47,11 +47,38 @@ Projeto de automação End-to-End cobrindo os fluxos críticos do e-commerce [Sa
   - `CT-007`: Validação de erro ao tentar avançar com campos vazios.
   - `CT-008`: Validação da obrigatoriedade do campo de sobrenome.
 
+![Relatório de Testes Cypress](./04-documentacao/imagens/relatorio-cypress.png)
+
 ---
 
-## 💻 Como Executar o Projeto de Automação
+### 💻 Como Executar o Projeto de Automação
 
-1. **Clonar o repositório:**
+1. Clone o repositório:
 
 ```bash
 git clone https://github.com/thiagocupla/qa-portfolio.git
+cd qa-portfolio
+```
+
+## ⚙️ Testes de API REST (Postman)
+
+Validação de contratos e regras de negócio no backend, garantindo a integridade dos dados antes de chegarem à interface.
+
+- **Ferramentas:** Postman, API ServeRest.
+- **Destaques:**
+  - Criação de Collections estruturadas e separação por rotas.
+  - Uso de variáveis de ambiente para dinamizar os testes.
+  - Validações de requisições GET, POST, PUT e DELETE.
+![Testes de API Postman](./04-documentacao/imagens/print-postman.png)
+
+---
+
+## 🗄️ Validação de Banco de Dados (SQL)
+
+Modelagem de dados e consultas avançadas para auditar regras de negócio direto na base de dados de um e-commerce.
+
+- **Ferramentas:** MySQL, Linha de Comando (CLI).
+- **Destaques:**
+  - Criação de banco de dados e injeção de massa de testes (Scripts DML/DDL).
+  - Consultas para testes de cenários negativos (ex: usuários bloqueados e produtos sem estoque).
+  - Rastreabilidade completa cruzando múltiplas tabelas (`INNER JOIN`) para auditar pedidos e itens comprados.
