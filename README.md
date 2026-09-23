@@ -69,7 +69,7 @@ Validação de contratos e regras de negócio no backend, garantindo a integrida
   - Criação de Collections estruturadas e separação por rotas.
   - Uso de variáveis de ambiente para dinamizar os testes.
   - Validações de requisições GET, POST, PUT e DELETE.
-![Testes de API Postman](./04-documentacao/imagens/print-postman.png)
+    ![Testes de API Postman](./04-documentacao/imagens/print-postman.png)
 
 ---
 
@@ -82,3 +82,4 @@ Modelagem de dados e consultas avançadas para auditar regras de negócio direto
   - Criação de banco de dados e injeção de massa de testes (Scripts DML/DDL).
   - Consultas para testes de cenários negativos (ex: usuários bloqueados e produtos sem estoque).
   - Rastreabilidade completa cruzando múltiplas tabelas (`INNER JOIN`) para auditar pedidos e itens comprados.
+    ![Evidência da Consulta SQL com 4 tabelas](./04-documentacao/imagens/print-sql.png)
