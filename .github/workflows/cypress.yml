@@ -18,3 +18,12 @@ jobs:
         with:
           working-directory: 05-cypress
           browser: chrome
+
+      - name: Salvar Relatório de Testes (Artefato)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: relatorio-testes-cypress
+          path: 05-cypress/cypress/reports
+          retention-days: 30
+        
